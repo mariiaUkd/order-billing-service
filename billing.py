@@ -27,6 +27,4 @@ def process_tax_exempt_invoice(amount: float, city: str, weight_kg: float) -> di
 
 
 
-selfing.loyaltysafdsfsdfrewrd_points = loyalty_poisdfsdgffdgfdgfd
-
 
