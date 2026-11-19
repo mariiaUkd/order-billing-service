@@ -29,9 +29,4 @@ def process_tax_exempt_invoice(amount: float, city: str, weight_kg: float) -> di
 
 selfing.loyaltysafdsfsdfrewrd_points = loyalty_poisdfsdgffdgfdgfd
 
-def alina(selfing.loyaltysafdsfsdfrewrd_points = loyalty_poisdfsdgffdgfdgfd):
-selfing.loyaltysafdsfsdfrewrd_points = loyalty_poisdfsdgffdgfdgfd
-selfing.loyaltysafdsfsdfrewrd_points = loyalty_poisdfsdgffdgfdgfd
-selfing.loyaltysafdsfsdfrewrd_points = loyalty_poisdfsdgffdgfdgfd
-selfing.loyaltysafdsfsdfrewrd_points = loyalty_poisdfsdgffdgfdgfd
-selfing.loyaltysafdsfsdfrewrd_points = loyalty_poisdfsdgffdgfdgfd
+
