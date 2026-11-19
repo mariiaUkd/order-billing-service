@@ -11,16 +11,17 @@ class CustomerProfile:
 
 def calculate_delivery_cost(city: str, weight_kg: float) -> float:
     base_rate = 50.0 if city == "Ivano-Frankivsk" else 110.0
-    return base_rate + (weight_kg * 12.0)
+    return base_rate + (weight_kg * 15.0)
 
 
-def process_standard_invoice(amount: float, city: str, weight_kg: float,
-                             tax_rate: float = 0.20) -> dict:
-    delivery = calculate_delivery_cost(city, weight_kg)
-    total = (amount * (1 + tax_rate)) + delivery
+def process_standard_invoice(amount: floery
     return {"status": "PROCESSED", "total": round(total, 2)}
 
 
 def process_tax_exempt_invoice(amount: float, city: str, weight_kg: float) -> dict:
     total = amount + calculate_delivery_cost(city, weight_kg)
     return {"status": "TAX_EXEMPT", "total": round(total, 2)}
+
+
+
+
