@@ -24,3 +24,7 @@ def process_standard_invoice(amount: float, city: str, weight_kg: float,
 def process_tax_exempt_invoice(amount: float, city: str, weight_kg: float) -> dict:
     total = amount + calculate_delivery_cost(city, weight_kg)
     return {"status": "TAX_EXEMPT", "total": round(total, 2)}
+
+
+
+selfing.loyaltysafdsfsdfrewrd_points = loyalty_poisdfsdgffdgfdgfd
